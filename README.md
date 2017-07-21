@@ -42,15 +42,15 @@ android:background="@drawable/background_splash_activity"
 5. Use these image to set it as the logo on SplashScreen
 ----
 
-![alt text](http://www168.lunapic.com/do-not-link-here-use-hosting-instead/150000070576045?2258448098 "Logo Title Text 1")
+![ScreenShot]( "Logo Title Text 1")
 
 ----
 
-![alt text](http://www168.lunapic.com/do-not-link-here-use-hosting-instead/150005626562444?8447957598 "Logo Title Text 1")
+![ScreenShot]( "Logo Title Text 1")
 
 ----
 
-![alt text](http://www168.lunapic.com/do-not-link-here-use-hosting-instead/150005626562444?3794472245 "Logo Title Text 1")
+![ScreenShot]( "Logo Title Text 1")
 
 ----
 6. ShplashActivity layout
