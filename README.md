@@ -55,18 +55,13 @@ android:background="@drawable/background_splash_activity"
 ----
 6. ShplashActivity layout
 ```xml
-    <View
-        android:id="@+id/splash_center"
-        android:layout_width="1dp"
-        android:layout_height="1dp"
-        android:layout_centerInParent="true"/>
-
     <ImageView
         android:layout_width="150dp"
-        android:layout_height="100dp"
+        android:layout_height="wrap_content"
         android:src="@drawable/pillow"
-        android:layout_above="@id/splash_center"
-        android:layout_centerHorizontal="true"/>
+        android:layout_centerInParent="true"
+        android:scaleType="fitStart"
+        android:paddingBottom="60dp" />
 
     <TextView
         android:id="@+id/splash_version"
