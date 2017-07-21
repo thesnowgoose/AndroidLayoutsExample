@@ -12,7 +12,7 @@ To teach how to use Layouts for Nearsoft's Android School CUU
 
 First lets start easy, lets define our splash screen layout that's gonna start our app.
 
-1. This is the splash screen I choose:
+1. This is the splash screen I've choosed:
 
 ![alt text](https://s-media-cache-ak0.pinimg.com/236x/98/5b/ca/985bcaef215c825ff4e7730d5c6eeb88--pillows-splash-screen.jpg "Logo Title Text 1")
 
@@ -42,15 +42,15 @@ android:background="@drawable/background_splash_activity"
 5. Use these image to set it as the logo on SplashScreen
 ----
 
-![ScreenShot]( "Logo Title Text 1")
+![ScreenShot](https://github.com/thesnowgoose/AndroidLayoutsExample/blob/1-Splash/app/src/main/res/drawable/pillow.png "Logo Title Text 1")
 
 ----
 
-![ScreenShot]( "Logo Title Text 1")
+![ScreenShot](https://github.com/thesnowgoose/AndroidLayoutsExample/blob/1-Splash/app/src/main/res/drawable/neybox_logo.png "Logo Title Text 1")
 
 ----
 
-![ScreenShot]( "Logo Title Text 1")
+![ScreenShot](https://github.com/thesnowgoose/AndroidLayoutsExample/blob/1-Splash/app/src/main/res/drawable/neybox.png "Logo Title Text 1")
 
 ----
 6. ShplashActivity layout
