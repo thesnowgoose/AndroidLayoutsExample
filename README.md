@@ -8,6 +8,8 @@ To teach how to use Layouts for Nearsoft's Android School CUU
 2. CustomViews
 3. GridLayout
 
+- Add Icons and images from drawables
+
 ### LinearLayout
 
 This is the interface we are gonna build now:
@@ -31,7 +33,7 @@ This is the interface we are gonna build now:
 
 We have set the orientation to vertical, meaning all elements inside the LinearLayout are gonna be displayed below the previous one.
 
-2. Lets create the bar under the under the tool bar
+2. Lets create the bar under the tool bar
 
 ```xml
 <LinearLayout
@@ -75,6 +77,10 @@ We have set the orientation to vertical, meaning all elements inside the LinearL
 </LinearLayout>
 ```
 
+### Take time to explain Space
+
+Here are some resources pending to add:
+
 down arrow
 
 ![ScreenShot](https://github.com/thesnowgoose/AndroidLayoutsExample/blob/2-cinepolis/app/src/main/res/drawable/icons/ionicons_2-0-1_ios-arrow-down_256_0_333333_none.png "Logo Title Text 1")
@@ -83,7 +89,13 @@ right arrow
 
 ![ScreenShot](https://github.com/thesnowgoose/AndroidLayoutsExample/blob/2-cinepolis/app/src/main/res/drawable/icons/ionicons_2-0-1_ios-arrow-forward_256_0_333333_none.png "Logo Title Text 1")
 
-We are missing a color here so lets define it, lets define all
+Lets add them as ImageVector and update our previous layout changing the Views for ImageViews
+
+```
+    android:background="@drawable/ic_down_arrow"
+```
+
+We are missing some colors here so lets define it, lets define them all
     - colorPrimary #0a599c
     - colorPrimaryDark #0a599c
     - colorAccent #FF4081
@@ -93,10 +105,10 @@ We are missing a color here so lets define it, lets define all
 ### Try your app
 
 Some text is not being displayed, lets fix it. Just add this field
-```xml
-android:text="@string/text2"
 ```
-And lets define our strings resources.
+    android:text="@string/text2"
+```
+And add them to our strings resources.
 
 
 3. Lets use common styles, abstracting the styles on our TextViews. Add this content to the styles.xml file on values/
@@ -121,22 +133,25 @@ style="@style/genericTextStyle"
     android:layout_width="match_parent"
     android:layout_height="130dp"
     android:background="@drawable/cover"/>
-
-<TextView
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    tools:text="Show Times"
-    android:text="@string/text3"
-    style="@style/genericTextStyle"
-    android:drawableEnd="@drawable/"
-    android:layout_margin="10dp"/>
 ```
 
 use this image for the cover:
 
 ![ScreenShot](https://github.com/thesnowgoose/AndroidLayoutsExample/blob/2-cinepolis/app/src/main/res/drawable/cover.png "Logo Title Text 1")
 
+And there is some text below the image, right?
+```xml
+<TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Show Times"
+        android:text="@string/text3"
+        android:drawableEnd="@drawable/ic_list_menu"
+        android:gravity="center_vertical"
+        style="@style/genericTextStyle"
+        android:layout_margin="10dp"/>
+```
+
 and this icon on the TextView:
 
 ![ScreenShot](https://github.com/thesnowgoose/AndroidLayoutsExample/blob/2-cinepolis/app/src/main/res/drawable/icons/ic_menu.png "Logo Title Text 1")
-
