@@ -135,3 +135,8 @@ style="@style/genericTextStyle"
 use this image for the cover:
 
 ![ScreenShot](https://github.com/thesnowgoose/AndroidLayoutsExample/blob/2-cinepolis/app/src/main/res/drawable/cover.png "Logo Title Text 1")
+
+and this icon on the TextView:
+
+![ScreenShot](https://github.com/thesnowgoose/AndroidLayoutsExample/blob/2-cinepolis/app/src/main/res/drawable/icons/ic_menu.png "Logo Title Text 1")
+
