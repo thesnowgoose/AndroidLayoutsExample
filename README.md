@@ -12,7 +12,7 @@ To teach how to use Layouts for Nearsoft's Android School CUU
 
 This is the interface we are gonna build now:
 
-![ScreenShot]( "Logo Title Text 1")
+![ScreenShot](https://github.com/thesnowgoose/AndroidLayoutsExample/blob/2-cinepolis/app/src/main/res/drawable/movies/cinepolis.jpeg "Logo Title Text 1")
 
 1. First let's edit our activity_main.xml. This is gonna be our view container or how it is called on Android a 'View Group'. A ViewGroup can contain other views called children
 
@@ -77,11 +77,11 @@ We have set the orientation to vertical, meaning all elements inside the LinearL
 
 down arrow
 
-![ScreenShot]( "Logo Title Text 1")
+![ScreenShot](https://github.com/thesnowgoose/AndroidLayoutsExample/blob/2-cinepolis/app/src/main/res/drawable/icons/ionicons_2-0-1_ios-arrow-down_256_0_333333_none.png "Logo Title Text 1")
 
 right arrow
 
-![ScreenShot]( "Logo Title Text 1")
+![ScreenShot](https://github.com/thesnowgoose/AndroidLayoutsExample/blob/2-cinepolis/app/src/main/res/drawable/icons/ionicons_2-0-1_ios-arrow-forward_256_0_333333_none.png "Logo Title Text 1")
 
 We are missing a color here so lets define it, lets define all
     - colorPrimary #0a599c
@@ -134,4 +134,4 @@ style="@style/genericTextStyle"
 
 use this image for the cover:
 
-![ScreenShot]( "Logo Title Text 1")
+![ScreenShot](https://github.com/thesnowgoose/AndroidLayoutsExample/blob/2-cinepolis/app/src/main/res/drawable/cover.png "Logo Title Text 1")
