@@ -1,16 +1,87 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:background="@color/moviesBackground"
     tools:context="com.thesnowgoose.androidlayoutexamples.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
-</RelativeLayout>
+        android:orientation="horizontal"
+        android:background="@color/banner"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            tools:text="Pune"
+            style="@style/genericTextStyle"
+            android:text="@string/text1"/>
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@drawable/ic_right_arrow" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            tools:text="All the cinemas"
+            style="@style/genericTextStyle"
+            android:text="@string/text2"/>
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@drawable/ic_down_arrow" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:background="@drawable/cover"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Show Times"
+        android:text="@string/text3"
+        android:drawableEnd="@drawable/ic_list_menu"
+        android:gravity="center_vertical"
+        style="@style/genericTextStyle"
+        android:layout_margin="10dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:useDefaultMargins="true"
+            android:columnCount="4">
+
+            <include layout="@layout/item_movie"
+                android:background="@drawable/cover"/>
+            <include layout="@layout/item_movie"/>
+            <include layout="@layout/item_movie"/>
+            <include layout="@layout/item_movie"/>
+            <include layout="@layout/item_movie"/>
+            <include layout="@layout/item_movie"/>
+            <include layout="@layout/item_movie"/>
+            <include layout="@layout/item_movie"/>
+
+        </GridLayout>
+
+    </ScrollView>
+
+</LinearLayout>
