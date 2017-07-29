@@ -14,7 +14,7 @@ To teach how to use Layouts for Nearsoft's Android School CUU
 
 This is the interface we are gonna build now:
 
-![ScreenShot](https://github.com/thesnowgoose/AndroidLayoutsExample/blob/2-cinepolis/app/src/main/res/drawable/movies/cinepolis.jpeg "Logo Title Text 1")
+![ScreenShot](https://github.com/thesnowgoose/AndroidLayoutsExample/blob/2-cinepolis/app/src/main/res/drawable/cinepolis.jpeg "Logo Title Text 1")
 
 1. First let's edit our activity_main.xml. This is gonna be our view container or how it is called on Android a 'View Group'. A ViewGroup can contain other views called children
 
@@ -83,11 +83,11 @@ Here are some resources pending to add:
 
 down arrow
 
-![ScreenShot](https://github.com/thesnowgoose/AndroidLayoutsExample/blob/2-cinepolis/app/src/main/res/drawable/icons/ionicons_2-0-1_ios-arrow-down_256_0_333333_none.png "Logo Title Text 1")
+![ScreenShot](https://github.com/thesnowgoose/AndroidLayoutsExample/blob/2-cinepolis/app/src/main/res/drawable/ic_arrow_down.png "Logo Title Text 1")
 
 right arrow
 
-![ScreenShot](https://github.com/thesnowgoose/AndroidLayoutsExample/blob/2-cinepolis/app/src/main/res/drawable/icons/ionicons_2-0-1_ios-arrow-forward_256_0_333333_none.png "Logo Title Text 1")
+![ScreenShot](https://github.com/thesnowgoose/AndroidLayoutsExample/blob/2-cinepolis/app/src/main/res/drawable/ic_arrow_forward.png "Logo Title Text 1")
 
 Lets add them as ImageVector and update our previous layout changing the Views for ImageViews
 
@@ -154,4 +154,4 @@ And there is some text below the image, right?
 
 and this icon on the TextView:
 
-![ScreenShot](https://github.com/thesnowgoose/AndroidLayoutsExample/blob/2-cinepolis/app/src/main/res/drawable/icons/ic_menu.png "Logo Title Text 1")
+![ScreenShot](https://github.com/thesnowgoose/AndroidLayoutsExample/blob/2-cinepolis/app/src/main/res/drawable/ic_menu.png "Logo Title Text 1")
