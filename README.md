@@ -233,3 +233,33 @@ If you want to be able to scroll the view on your phone just wrap the GridLayout
 
 </ScrollView>
 ```
+
+6. Finally lets fix the toolbar
+
+Change the parent on AppTheme on styles.xml:
+```
+parent="Theme.AppCompat.NoActionBar"
+```
+
+Create a new file toolbar_main.xml
+```xml
+<android.support.v7.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="@color/colorPrimary"
+    android:elevation="4dp"/>
+```
+
+And include this layout on top of our activity_main.xml
+```xml
+<include layout="@layout/toolbar_main"/>
+```
+
+Finally add this to our MainActivity.java so it is displayed on runtime:
+```java
+Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+setSupportActionBar(toolbar);
+getSupportActionBar().setDisplayShowTitleEnabled(false);;
+```
