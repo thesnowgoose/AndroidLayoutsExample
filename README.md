@@ -186,7 +186,8 @@ Let's define our item_movie:
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        tools:text="Pelicula"/>
+        style="@style/genericTextStyle"
+        android:text="@string/text4"/>
 
 </LinearLayout>
 ```
