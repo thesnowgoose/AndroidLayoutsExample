@@ -155,3 +155,80 @@ And there is some text below the image, right?
 and this icon on the TextView:
 
 ![ScreenShot](https://github.com/thesnowgoose/AndroidLayoutsExample/blob/2-cinepolis/app/src/main/res/drawable/ic_menu.png "Logo Title Text 1")
+
+5. Ok now we are gonna add the movies list, to display them we are gonna use the GridLayout
+```xml
+<GridLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:useDefaultMargins="true"
+    android:columnCount="4">
+
+</GridLayout>
+```
+
+Let's define our item_movie:
+```xml
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:src="@drawable/movie1"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="6dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        tools:text="Pelicula"/>
+
+</LinearLayout>
+```
+
+Now add it to our GridLayout several times
+```xml
+<include layout="@layout/item_movie"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_columnWeight="1"/>
+```
+
+If you want to be able to scroll the view on your phone just wrap the GridLayout with a ScrollView
+```xml
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:useDefaultMargins="true"
+        android:columnCount="4">
+
+        <include layout="@layout/item_movie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"/>
+        <include layout="@layout/item_movie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"/>
+        <include layout="@layout/item_movie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"/>
+        <include layout="@layout/item_movie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"/>
+
+    </GridLayout>
+
+</ScrollView>
+```
