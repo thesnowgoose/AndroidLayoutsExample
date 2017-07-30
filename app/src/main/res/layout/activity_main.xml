@@ -71,14 +71,21 @@
             android:columnCount="4">
 
             <include layout="@layout/item_movie"
-                android:background="@drawable/cover"/>
-            <include layout="@layout/item_movie"/>
-            <include layout="@layout/item_movie"/>
-            <include layout="@layout/item_movie"/>
-            <include layout="@layout/item_movie"/>
-            <include layout="@layout/item_movie"/>
-            <include layout="@layout/item_movie"/>
-            <include layout="@layout/item_movie"/>
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"/>
+            <include layout="@layout/item_movie"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"/>
+            <include layout="@layout/item_movie"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"/>
+            <include layout="@layout/item_movie"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"/>
 
         </GridLayout>
 
