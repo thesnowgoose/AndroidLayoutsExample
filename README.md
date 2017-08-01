@@ -13,6 +13,7 @@ To teach how to use Layouts for Nearsoft's Android School CUU
 * AbsoluteLayout
 * TableLayout
 * GridLayout
+* ConstraintLayout
 
 - Custom Views
 - Selectors
