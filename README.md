@@ -42,15 +42,15 @@ android:background="@drawable/background_splash_activity"
 5. Use these image to set it as the logo on SplashScreen
 ----
 
-![ScreenShot](https://github.com/thesnowgoose/AndroidLayoutsExample/blob/1-Splash/app/src/main/res/drawable/pillow.png "Logo Title Text 1")
+![ScreenShot](https://github.com/thesnowgoose/AndroidLayoutsExample/blob/1-SplashBase/app/src/main/res/drawable/pillow.png "Logo Title Text 1")
 
 ----
 
-![ScreenShot](https://github.com/thesnowgoose/AndroidLayoutsExample/blob/1-Splash/app/src/main/res/drawable/neybox_logo.png "Logo Title Text 1")
+![ScreenShot](https://github.com/thesnowgoose/AndroidLayoutsExample/blob/1-SplashBase/app/src/main/res/drawable/neybox.png "Logo Title Text 1")
 
 ----
 
-![ScreenShot](https://github.com/thesnowgoose/AndroidLayoutsExample/blob/1-Splash/app/src/main/res/drawable/neybox.png "Logo Title Text 1")
+![ScreenShot](https://github.com/thesnowgoose/AndroidLayoutsExample/blob/1-SplashBase/app/src/main/res/drawable/neybox_logo.png "Logo Title Text 1")
 
 ----
 6. ShplashActivity layout
