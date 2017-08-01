@@ -192,6 +192,9 @@ Let's define our item_movie:
 </LinearLayout>
 ```
 
+![ScreenShot](https://github.com/thesnowgoose/AndroidLayoutsExample/blob/2-cinepolis/app/src/main/res/drawable/movie1.png "Logo Title Text 1")
+
+
 Now add it to our GridLayout several times
 ```xml
 <include layout="@layout/item_movie"
