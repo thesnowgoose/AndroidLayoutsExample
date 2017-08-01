@@ -14,7 +14,7 @@ To teach how to use Layouts for Nearsoft's Android School CUU
 
 This is the interface we are gonna build now:
 
-![ScreenShot](https://github.com/thesnowgoose/AndroidLayoutsExample/tree/2-gridBase/app/src/main/res/drawable/cinepolis.jpeg "Logo Title Text 1")
+![ScreenShot](https://github.com/thesnowgoose/AndroidLayoutsExample/blob/2-gridBase/app/src/main/res/drawable/cinepolis.jpeg "Logo Title Text 1")
 
 1. First let's edit our activity_main.xml. This is gonna be our view container or how it is called on Android a 'View Group'. A ViewGroup can contain other views called children
 
