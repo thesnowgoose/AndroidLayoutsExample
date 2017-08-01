@@ -5,8 +5,8 @@ To teach how to use Layouts for Nearsoft's Android School CUU
 ### What will we see??
 
 1. LinearLayout
-2. CustomViews
-3. GridLayout
+2. GridLayout
+3. Toolbar
 
 - Add Icons and images from drawables
 
