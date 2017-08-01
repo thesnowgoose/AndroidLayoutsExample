@@ -1,7 +1,3 @@
 <resources>
     <string name="app_name">AndroidLayoutExamples</string>
-    <string name="text1">Pune</string>
-    <string name="text2">All the cinemas</string>
-    <string name="text3">Show Times</string>
-    <string name="text4">Pelicula</string>
 </resources>
