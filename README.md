@@ -5,14 +5,14 @@ To teach how to use Layouts for Nearsoft's Android School CUU
 ### What will we see??
 
 1. Custom Views
-2. <merge>
+2. merge tag
 
 
 ### Custom View
 
 A custom view is used when none of the existing views fits with your app needs. So just Extending for any of the View Classes you can define your oun custom view.
 
-![ScreenShot](https://github.com/thesnowgoose/AndroidLayoutsExample/blob/3-CustomView/app/src/main/res/drawable/view-hierarchy.png "Logo Title Text 1")
+![ScreenShot](https://github.com/thesnowgoose/AndroidLayoutsExample/blob/3-CustomViewBase/app/src/main/res/drawable/view-hierarchy.png "Logo Title Text 1")
 
 To build a basic custom view we need this:
 
@@ -110,7 +110,7 @@ public class ColorOptionsView extends LinearLayout {
 ```
 
 Now that it has extended from LinearLayout we have access to the life cycle of the view:
-![ScreenShot](https://github.com/thesnowgoose/AndroidLayoutsExample/blob/3-CustomView/app/src/main/res/drawable/view-lifecycle.png "Logo Title Text 1")
+![ScreenShot](https://github.com/thesnowgoose/AndroidLayoutsExample/blob/3-CustomViewBase/app/src/main/res/drawable/view-lifecycle.png "Logo Title Text 1")
 
 
 As we can see, our custom attributes are gonna be a text and a color. So we are gonna define this attributes in values/attrs.xml
