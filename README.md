@@ -83,11 +83,11 @@ Here are some resources pending to add:
 
 down arrow
 
-![ScreenShot](https://github.com/thesnowgoose/AndroidLayoutsExample/tree/2-gridBase/app/src/main/res/drawable/ic_arrow_down.png "Logo Title Text 1")
+![ScreenShot](https://github.com/thesnowgoose/AndroidLayoutsExample/blob/2-gridBase/app/src/main/res/drawable/ic_arrow_down.png "Logo Title Text 1")
 
 right arrow
 
-![ScreenShot]https://github.com/thesnowgoose/AndroidLayoutsExample/tree/2-gridBase/app/src/main/res/drawable/ic_arrow_forward.png "Logo Title Text 1")
+![ScreenShot](https://github.com/thesnowgoose/AndroidLayoutsExample/blob/2-gridBase/app/src/main/res/drawable/ic_arrow_forward.png "Logo Title Text 1")
 
 Lets add them as ImageVector and update our previous layout changing the Views for ImageViews
 
@@ -137,7 +137,7 @@ style="@style/genericTextStyle"
 
 use this image for the cover:
 
-![ScreenShot](https://github.com/thesnowgoose/AndroidLayoutsExample/tree/2-gridBase/app/src/main/res/drawable/cover.png "Logo Title Text 1")
+![ScreenShot](https://github.com/thesnowgoose/AndroidLayoutsExample/blob/2-gridBase/app/src/main/res/drawable/cover.png "Logo Title Text 1")
 
 And there is some text below the image, right?
 ```xml
@@ -154,7 +154,7 @@ And there is some text below the image, right?
 
 and this icon on the TextView:
 
-![ScreenShot](https://github.com/thesnowgoose/AndroidLayoutsExample/tree/2-gridBase/app/src/main/res/drawable/ic_menu.png "Logo Title Text 1")
+![ScreenShot](https://github.com/thesnowgoose/AndroidLayoutsExample/blob/2-gridBase/app/src/main/res/drawable/ic_menu.png "Logo Title Text 1")
 
 5. Ok now we are gonna add the movies list, to display them we are gonna use the GridLayout
 ```xml
@@ -192,7 +192,7 @@ Let's define our item_movie:
 </LinearLayout>
 ```
 
-![ScreenShot](https://github.com/thesnowgoose/AndroidLayoutsExample/tree/2-gridBase/app/src/main/res/drawable/movie1.png "Logo Title Text 1")
+![ScreenShot](https://github.com/thesnowgoose/AndroidLayoutsExample/blob/2-gridBase/app/src/main/res/drawable/movie1.png "Logo Title Text 1")
 
 
 Now add it to our GridLayout several times
