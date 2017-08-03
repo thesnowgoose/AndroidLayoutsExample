@@ -5,19 +5,6 @@ To teach how to use Layouts for Nearsoft's Android School CUU
 ### What will we see??
 
 1. 9Patch
-2. RelativeLayout
-3. LinearLayout
-4. FrameLayout
-5. Landscape and Portrait layouts
-
-* AbsoluteLayout
-* TableLayout
-* GridLayout
-* ConstraintLayout
-
-- Custom Views
-- Selectors
-- 9Patch
 
 A NinePatchDrawable graphic is a stretchable bitmap image that you can use as the background of a view. Android automatically resizes the graphic to accommodate the contents of the view. An example use of a NinePatch image is the background used by standard Android buttons.
 Is a standard PNG image that includes an extra 1-pixel border. It must be saved with the 9.png extension in the res/drawable/ directory of your project.
