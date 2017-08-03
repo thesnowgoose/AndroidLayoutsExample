@@ -19,7 +19,7 @@ The TOP and LEFT border lines are used to define the scalable portion of your im
 
 It's important to note that 9-patch images don't scale down - they only scale up. So it's best to start as small as possible.
 
-![ScreenShot]( "Logo Title Text 1")
+![ScreenShot](https://github.com/thesnowgoose/AndroidLayoutsExample/blob/4-9patch/app/src/main/res/drawable/img_bubble_text.png "Logo Title Text 1")
 
 Fill area guides are optional and provide a way define the area for stuff like your text label. Fill determines how much room there is within your image to place text, or an icon, or other things. 9-patch isn't just for buttons, it works for background images as well.
 
