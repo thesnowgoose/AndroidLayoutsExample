@@ -10,10 +10,4 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.thesnowgoose.androidlayoutexamples.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:maxWidth="150dp"
-        android:text="Hello World!"
-        android:background="@drawable/npatch_button_green" />
 </LinearLayout>
